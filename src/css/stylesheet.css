@@ -1,0 +1,119 @@
+ /*{
+border: solid 2px;
+} */
+body {
+  margin: 0;
+  position: relative;
+}
+nav {
+  background-color: black;
+  text-align: center;
+  font-family: "Oswald";
+  margin-bottom: 1px;
+  position: sticky;
+  -webkit-position: sticky;
+  -moz-position: sticky;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  padding-top: 5px;
+}
+nav ul li {
+  padding: 5px 30px;
+  display: inline-block;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+li a:hover {
+  transition:all 200ms ease-in;
+  letter-spacing: 2px;
+  border : 1px solid white;
+}
+.header {
+  width: auto;
+  max-height: 900px;
+  font-family: "Oswald", serif;
+  text-align: center;
+  margin-top: -23px;
+  color: black;
+  background: url("http://41.media.tumblr.com/6c918be4caba5725fb4f949a76ffef7f/tumblr_n7sgt7QcYO1qfirfao1_1280.jpg");
+  background-size:cover;
+  background-size: -webkit-cover;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+.header img {
+  margin-bottom: 5px;
+  position: relative;
+}
+ .blur img { /* I might want to add something diff using Js */
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 20%;
+  height: 20%;
+  margin-bottom: 0;
+}
+.blur {
+  transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+}
+.blur img:hover {
+  filter:grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+.About {
+  width: 60%;
+  font-family:"Playfair Display", serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.About h2 {
+font-variant: small-caps;
+}
+.About p q {
+  font-style: italic;
+}
+.Future {
+  width: 60%;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+}
+.Future h2 {
+}
+.Future  p {
+  font-style: normal;
+}
+.Future
+.Blog {
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.blogimage img{
+  width: 40%;
+}
+.Contact {
+  width: 60%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
