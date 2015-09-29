@@ -4,6 +4,8 @@ border: solid 2px;
 body {
   margin: 0;
   position: relative;
+  background-color: rgba(255, 60, 50, 0.5);
+  font-style: normal;
 }
 nav {
   background-color: black;
@@ -45,13 +47,16 @@ li a:hover {
   text-align: center;
   margin-top: -23px;
   color: black;
-  background: url("http://41.media.tumblr.com/6c918be4caba5725fb4f949a76ffef7f/tumblr_n7sgt7QcYO1qfirfao1_1280.jpg");
+  background-image: url("http://41.media.tumblr.com/6c918be4caba5725fb4f949a76ffef7f/tumblr_n7sgt7QcYO1qfirfao1_1280.jpg");
   background-size:cover;
   background-size: -webkit-cover;
   background-attachment: fixed;
   margin-bottom: 0;
   padding-bottom: 0;
   position: relative;
+}
+.header span {
+  color: rgba(255, 255, 255, .9);
 }
 .header img {
   margin-bottom: 5px;
@@ -75,40 +80,40 @@ li a:hover {
 }
 .About {
   width: 60%;
-  font-family:"Playfair Display", serif;
-  font-size: 18px;
-  text-align: center;
-  margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 .About h2 {
 font-variant: small-caps;
+font-size: 18px;
 }
 .About p q {
   font-style: italic;
 }
-.Future {
+.Abilities {
   width: 60%;
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
   text-align: center;
-  margin-left: auto;
   margin-right: auto;
-  font-style: normal;
+
 }
-.Future h2 {
+.Abilities h2 {
+font-variant: small-caps;
+font-size: 18px;
 }
-.Future  p {
-  font-style: normal;
+.Abilities  p {
+font-size: 18px;
 }
-.Future
+.tools ul li {
+  list-style-type: none;
+  display: inline-table;
+}
 .Blog {
   width: 60%;
   text-align: center;
-  margin-left: auto;
   margin-right: auto;
 }
-.blogimage img{
+
+.blogimage img {
   width: 40%;
 }
 .Contact {
