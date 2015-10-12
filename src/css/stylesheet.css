@@ -1,124 +1,201 @@
- /*{
-border: solid 2px;
-} */
-body {
-  margin: 0;
-  position: relative;
-  background-color: rgba(255, 60, 50, 0.5);
-  font-style: normal;
+html {
+  font-family: 'Dosis';
 }
-nav {
-  background-color: black;
-  text-align: center;
-  font-family: "Oswald";
-  margin-bottom: 1px;
-  position: sticky;
-  -webkit-position: sticky;
-  -moz-position: sticky;
-  top: 0;
+
+.navbar {
+  position: fixed;
+  right: .5%;
+  margin-top: 10px;
+  background: rgba(20, 20, 20, .9);
+  margin-right: -12px;
 }
-nav ul {
-  list-style-type: none;
-  padding-top: 5px;
-}
-nav ul li {
-  padding: 5px 30px;
-  display: inline-block;
-}
-li a {
+.name {
+  text-align: left;
+  float: left;
+  font-size: 22px;
+  font-family: 'Quicksand';
   color: white;
-  text-decoration: none;
+  margin-top: 14px;
+  margin-left: 3px;
+  margin-bottom: 70px;
 }
-a:active {
-  text-decoration: none;
+ nav ul {
+  color: white;
+  padding: 10px 6px 10px 5px;
+  width: 105px;
+  height: 1500px;
+  text-align: center;
 }
-a:visited {
+nav li {
   text-decoration: none;
+  display: block;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  margin: 10px;
 }
-li a:hover {
-  transition:all 200ms ease-in;
-  letter-spacing: 2px;
-  border : 1px solid white;
+nav ul li a {
+  text-decoration: none;
+  color: silver;
+}
+
+nav ul li a:active {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: white;
 }
 .header {
-  width: auto;
-  max-height: 900px;
-  font-family: "Oswald", serif;
-  text-align: center;
-  margin-top: -23px;
-  color: black;
-  background-image: url("http://41.media.tumblr.com/6c918be4caba5725fb4f949a76ffef7f/tumblr_n7sgt7QcYO1qfirfao1_1280.jpg");
-  background-size:cover;
-  background-size: -webkit-cover;
-  background-attachment: fixed;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  position: relative;
+  color: white;
+  text-align: left;
+  font-family: 'Quicksand';
 }
-.header span {
-  color: rgba(255, 255, 255, .9);
+
+.header h1 {
+  font-size: 65px;
+  font-weight: bold;
+  padding: 0 15px;
+  margin: 250px 10px 0;
+  letter-spacing: 2px;
 }
-.header img {
-  margin-bottom: 5px;
-  position: relative;
+
+.header p {
+  font-weight: bold;
+  font-size: 38px;
+  padding: 0 65px;
+  letter-spacing: 2px;
 }
- .blur img { /* I might want to add something diff using Js */
-  border: 5px solid black;
-  border-radius: 20px;
-  width: 20%;
-  height: 20%;
-  margin-bottom: 0;
+
+.picme {
+  padding-top: 10px;
+  margin: -20px;
+  height: 700px;
+  background: -webkit-linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)), url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=3c099074dcb31d34a2f8428c3a3195c2&oe=568472D3") no-repeat, center, fixed;
+  background: linear-gradient(rgba(62, 74, 88, 0.8), rgba(62, 74, 88, 0.8)), url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=3c099074dcb31d34a2f8428c3a3195c2&oe=568472D3") no-repeat fixed;
+  background-size: cover;
 }
-.blur {
-  transition:all 1s ease;
-  -webkit-transition:all 1s ease;
-  -moz-transition:all 1s ease;
-}
-.blur img:hover {
-  filter:grayscale(100%);
-  -webkit-filter: grayscale(100%);
-}
+
 .About {
-  width: 60%;
-  margin-right: auto;
-  text-align: center;
-}
-.About h2 {
-font-variant: small-caps;
-font-size: 18px;
-}
-.About p q {
-  font-style: italic;
-}
-.Abilities {
-  width: 60%;
-  text-align: center;
-  margin-right: auto;
-
-}
-.Abilities h2 {
-font-variant: small-caps;
-font-size: 18px;
-}
-.Abilities  p {
-font-size: 18px;
-}
-.tools ul li {
-  list-style-type: none;
-  display: inline-table;
-}
-.Blog {
-  width: 60%;
-  text-align: center;
-  margin-right: auto;
+  height: 300px;
+  margin: 0 -22px;
 }
 
-.blogimage img {
+.Bio {
   width: 40%;
-}
-.Contact {
-  width: 60%;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Dosis' sans-serif;
+  padding: 50px, 20px;
+}
+
+hr {
+  width: 250px;
+}
+
+.Bio h2 {
+  font-size: 40px;
+}
+
+.Bio p {
+  text-align: left;
+  font-size: 23px;
+}
+
+.coding h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.Skills {
+  height: 400px;
+}
+
+.coding ul {
+  list-style-type: none;
+  display: inline;
+}
+
+.coding ul li {
+  border: 1px ridge rgba(20, 220, 220, .8);
+  border-radius: 2px;
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  background: rgba(27, 180, 124, .9);
+  margin: 10px;
+  color: white;
+  text-align: center;
+  display: inlne;
+  width: 122px;
+  height: 27px;
+  padding-top: 5px;
+}
+
+#first {
+  float: left;
+  max-width: 40%;
+  margin-left: 20%;
+}
+
+#second {
+  float: right;
+  max-width: 40%;
+  margin-right: 20%;
+}
+
+#second ul li {
+  font-family: 'Josefin Sans';
+}
+
+.projects {
+  height: 600px;
+  margin: 0 -22px;
+  background-color: rgba(40, 40, 40, .2);
+}
+
+.projects h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+}
+
+.projects hr {
+  background: black;
+}
+
+.projects p {
+  max-width: 70%;
+  text-align: center;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work {
+  text-align: center;
+}
+
+.projects img {
+  width: 30%;
+  height: 38%;
+  margin-top: 14px;
+}
+.connect {
+  width: 100%;
+  margin: 10px;
+}
+.connect ul {
+  list-style-type: none;
+  margin-top: -3px;
+  display: inline-flex;
+  margin-left: -50px;
+
+}
+.connect ul li {
+}
+.connect img {
+ height: 40px;
+ width: 40px;
+ margin-bottom: -15px;
 }
