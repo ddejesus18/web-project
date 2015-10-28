@@ -188,11 +188,12 @@ hr {
 .connect ul {
   list-style-type: none;
   margin-top: -3px;
-  display: inline-flex;
-  margin-left: -50px;
+  margin-left: -30px;
 
 }
 .connect ul li {
+    display: inline-flex;
+    padding: 0 30px;
 }
 .connect img {
  height: 40px;
