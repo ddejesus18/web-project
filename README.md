@@ -7,7 +7,7 @@ I started creating this site after learning HTML & CSS. I started out on my text
 This site was intended to be my playground. It allowed me to learn ne things, bring out my inner creative and showed me that I can design a wonderful site. This is my first take at a personal site and I am really happy with the results. I am even more excited about the future changes I will make to it as I expand my Front-End skills.
 
 I used Firebase to deploy my site and I am planning to buy a domain name for it but for now, the Firebase name will do. 
-<a href="dianacodes.firebaseapp.com">
+<a href="http://www.dianacodes.firebaseapp.com">Check it out</a>
 
 I am open to suggestions, critiques (whether constructive or not) and please fork it! 
 
