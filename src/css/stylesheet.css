@@ -40,7 +40,6 @@ nav ul li a {
   text-decoration: none;
   color: white;
 }
-
 nav ul li a:hover {
   color:  #FFC400;
 }
@@ -79,7 +78,6 @@ nav ul .icons li a {
   padding: 0 65px;
   letter-spacing: 2px;
 }
-
 .picme {
   padding-top: 10px;
   margin: -20px;
@@ -88,12 +86,10 @@ nav ul .icons li a {
   background: linear-gradient(rgba(50, 150, 160, 0.8), rgba(50, 136, 188, 0.8)), url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=3c099074dcb31d34a2f8428c3a3195c2&oe=568472D3") no-repeat fixed;
   background-size: cover;
 }
-
 .About {
   background: white;
   height: 20%;
 }
-
 .Bio {
   width: 60%;
   margin-left: auto;
@@ -102,17 +98,14 @@ nav ul .icons li a {
   text-align: center;
   font-family: 'Oswald' sans-serif;
 }
-
 hr {
   width: 90px;
   border: .13em solid  rgba(19, 60, 90, .9);
 }
-
 .Bio h2 {
   font-size: 2.5em;
   color: #455A64;
 }
-
 .Bio p {
   text-align: left;
   font-size: 1.4em;
@@ -125,7 +118,7 @@ hr {
 }
 .Skills {
   height: 20%;
-   color: #455A64;
+  color: #455A64;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
@@ -137,24 +130,22 @@ hr {
 .coding p {
   font-family: 'Oswald';
   font-weight: 300;
-   text-align: left;
+  text-align: left;
   font-size: 1.4em;
 }
 .coding p span {
-color:  #FFC400;
+  color:  #FFC400;
 }
 .projects {
   color: #455A64;
   clear: both;
 }
-
 .projects h2 {
   text-align: center;
   padding-top: 50px;
   font-size: 40px;
   font-size: 2.5em;
 }
-
 .projects p {
   max-width: 70%;
   text-align: center;
@@ -162,21 +153,22 @@ color:  #FFC400;
   margin-left: auto;
   margin-right: auto;
 }
-
 .work {
   text-align: center;
 }
-
-.projects #pro1 img {
+.projects #pro img {
   width: 44%;
   padding: 10px 20px;
   margin-top: 14px;
+}
+.projects #pro img a:hover {
+  background-color: red;
 }
 .blog {
   text-align: center;
 }
 .blog h2 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 .blog .posts h3 {
   font-size: 1.1em;
@@ -217,7 +209,7 @@ color:  #FFC400;
   font-size: 1.4em;
 }
 .contact-wrapper h2 {
-    font-size: 2.5em;
+  font-size: 2.5em;
 }
 .button {
  text-align: center;
@@ -232,7 +224,7 @@ color:  #FFC400;
   color: white;
   border: 5px solid #FFC400;
   border-radius: 4px;
-margin-bottom: 5px;
+  margin-bottom: 5px;
   padding: 5px 20px;
   letter-spacing: 4px;
 }
