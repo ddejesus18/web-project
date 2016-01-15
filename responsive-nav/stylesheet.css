@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  /* needed to make width 100% to take up entire page */
+  height: 700px;
+  background-image:  url("http://www.planwallpaper.com/static/images/colorful-triangles-background_yB0qTG6.jpg");
+  z-index: 10;
+  /* z-index is lower than index of the nav so that the header can display in the background. In the site I will make the entire page z-index lower and the nav higher */
+  position: absolute;
+  /* position absolute so that the header and the nav can sit in the same place, one on top of each other*/
+}
+#nav {
+  /* need to give my nav a position so that my z-index functions */
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  clear: both;
+  z-index: 20;
+}
+.fa {
+  float: right;
+  margin-right: 4px;
+  padding: 2px;
+  z-index: 20;
+  position: relative;
+}
+#close-nav {
+  display: none;
+
+}
+#nav #list {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(128, 128, 128, .3);
+  position: absolute;
+  display: none;
+  /*display none because it doesn't affect the layout of the page. Using visibility hidden affects the layout of the page. */
+}
+.item {
+  font-size: 4em;
+}
