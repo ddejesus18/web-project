@@ -84,8 +84,8 @@ nav ul .icons li a {
   padding-top: 10px;
   margin: -20px;
   height: 600px;
-  background: -webkit-linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)), url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=3c099074dcb31d34a2f8428c3a3195c2&oe=568472D3") no-repeat, center, fixed;
-  background: linear-gradient(rgba(50, 150, 160, 0.8), rgba(50, 136, 188, 0.8)), url("https://scontent-lga3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=3c099074dcb31d34a2f8428c3a3195c2&oe=568472D3") no-repeat fixed;
+  background: -webkit-linear-gradient(rgba(52, 73, 94, 0.8), rgba(52, 73, 94, 0.8)), url("https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=092f4276b6aafb6873713b1046421867&oe=56FB19D3") no-repeat, center, fixed;
+  background: linear-gradient(rgba(50, 150, 160, 0.8), rgba(50, 136, 188, 0.8)), url("https://scontent-atl3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/403552_10151844769060246_789987329_n.jpg?oh=092f4276b6aafb6873713b1046421867&oe=56FB19D3") no-repeat fixed;
   background-size: cover;
 }
 
@@ -146,6 +146,7 @@ color:  #FFC400;
 .projects {
   color: #455A64;
   clear: both;
+  width: 90%;
 }
 
 .projects h2 {
@@ -155,22 +156,15 @@ color:  #FFC400;
   font-size: 2.5em;
 }
 
-.projects p {
-  max-width: 70%;
-  text-align: center;
-  font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .work {
   text-align: center;
+  overflow: scroll;
+  height: 500px;
 }
 
 .projects img {
-  width: 44%;
-  padding: 10px 20px;
-  margin-top: 14px;
+  width: 90%;
+  border: 1px solid white;
 }
 .blog {
   text-align: center;
